@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header styles here  */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    padding: 216px 150px 364px 845px;
+}
+
+.header-heading {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-heading-believe {
+    padding-left: 215px;
+}
+
+.header-paragraph {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 16px;
+    margin-top: 24px;
+    margin-right: 23px;
+    text-align: right;
+}
+
+.header-button {
+    color: #005FAC;
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px 20px 26px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 53px 0px 0px 246px;
+    /* margin-right: 25px; */
+}

@@ -40,3 +40,203 @@
     margin: 53px 0px 0px 246px;
     /* margin-right: 25px; */
 }
+
+/* main styles here  */
+
+.main {
+    background-color: #FFF;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div img {
+    padding-left: 120px;
+}
+
+.main-description {
+    padding-left: 50px;
+}
+
+.main-description-title {
+    padding-top: 200px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-description-paragraph {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400px; 
+    margin-top: 24px;
+    padding-right: 240px;
+    /* padding-left: 87px; */
+    /* text-align: center left; */
+}
+
+.main-description-list-sign {
+    color: green;
+    font-weight: bold;
+}
+
+.main ul {
+    margin-top: 16px;
+}
+
+.main li {
+    list-style: none;
+}
+/* my plans section start  */
+.my-plans {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-plans-list {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    text-align: center;
+}
+
+.my-plans-list h3 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-plans-list p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.watch-image {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin: 50px 0px 0px 150px;
+    display: flex;
+} 
+
+.watch-image .positive-mind-heading {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 55px;
+    position: absolute;
+}
+
+.watch-image .call-now {
+    color: #005FAC;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 35px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 190px;
+    margin-left: 55px;
+    position: absolute;
+}
+
+
+/* footer section starts here  */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    margin-top: 100px;
+}
+
+.future-part h2 {
+    color: #F8F8F8;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 130px;
+    padding-left: 110px;
+} 
+
+.future-part .paragraph {
+    margin-top: 16px;
+    padding-left: 110px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.future-part .email {
+    margin-top: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-left: 110px;
+}
+
+.future-part .phone {
+    color: #FFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 16px;
+    padding-left: 110px;
+}
+
+.future-part .social-icons {
+    margin-top: 16px;
+    padding-left: 115px;
+}
+.future-part .social-icons .facebook, .twitter {
+    padding-right: 10px;
+}
+
+
+.subscribe-part h3 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 22px;
+    margin-right: 70px;
+    padding-top: 130px;
+}
+
+.subscribe-part input {
+    color: #F3F3F3;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #151414;
+    width: 250px;
+    margin-right: 70px;
+    margin-top: 16px;
+    padding: 13px 0px 13px 14px;
+}
+
+.subscribe-part button {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #005FAC;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 8px;
+    margin-right: 70px;
+    padding: 19px 34px;
+}
